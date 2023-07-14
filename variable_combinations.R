@@ -8,8 +8,3 @@ variables <- colnames(df)
 
 #generates all possible combinations of the variables
 combinations <- unlist(lapply(1:length(variables), function(i) combn(variables, i, simplify = FALSE)), recursive = FALSE)
-
-
-
-
-
